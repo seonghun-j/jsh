@@ -24,6 +24,10 @@ public class PangPlayer : MonoBehaviour
     { 
     
     }
+    private void Move_Action()
+    { 
+    
+    }
     private float _speed = 3;
     // Update is called once per frame
     void Update()
@@ -36,7 +40,7 @@ public class PangPlayer : MonoBehaviour
             case STATE.MOVE:
                 Move_Action();
                 break;
-            \case STATE.HITTED:
+            case STATE.HITTED:
                 break;
         }
         if (Input.GetMouseButtonDown(0))
